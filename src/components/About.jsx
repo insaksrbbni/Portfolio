@@ -1,7 +1,7 @@
 // src/components/About.jsx
 import React from 'react';
 import { Github, Instagram, Mail, Youtube } from 'lucide-react';
-import Hero from '../assets/images/Hero.jpg';
+import Hero from '../../public/Hero.jpg';
 
 const About = ({ darkMode }) => {
   const cardBg = darkMode ? 'bg-gray-800' : 'bg-white';
