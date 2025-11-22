@@ -1,6 +1,6 @@
 // src/components/Hero.jsx
 import React from 'react';
-import Profile from '../assets/images/Profile.jpg';
+import Profile from '../assets/images/PP.jpg';
 
 const Hero = ({ darkMode, scrollToSection }) => {
   const borderClass = darkMode ? 'border-gray-700' : 'border-gray-200';
