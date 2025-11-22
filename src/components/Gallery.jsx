@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import P1 from '../assets/images/p1.jpg';
-import P2 from '../assets/images/p2.jpg';
-import P3 from '../assets/images/p3.jpg';
-import P4 from '../assets/images/p4.jpg';
-import P5 from '../assets/images/p5.jpg';
-import P6 from '../assets/images/p6.jpg';
-import P7 from '../assets/images/p7.jpg';
-import P8 from '../assets/images/p8.jpg';
+import P2 from '../../public/p2.jpg';
+import P1 from '../../public/p1.jpg';
+import P3 from '../../public/p3.jpg';
+import P4 from '../../public/p4.jpg';
+import P5 from '../../public/p5.jpg';
+import P6 from '../../public/p6.jpg';
+import P7 from '../../public/p7.jpg';
+import P8 from '../../public/p8.jpg';
 
 const Gallery = ({ darkMode }) => {
   const [selectedIndex, setSelectedIndex] = useState(null);
