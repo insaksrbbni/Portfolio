@@ -17,7 +17,7 @@ const Skills = ({ darkMode }) => {
   return (
     <section id="skills" className={`py-20 px-4 ${darkMode ? 'bg-gray-800/50' : 'bg-blue-50'}`}>
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl font-bold mb-12 text-center">Skills & Technologies</h2>
+        <h2 className="text-2xl md:text-3xl font-bold mb-12 text-center">Skills & Technologies</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {skills.map((skill, index) => (
             <div key={index} className={`${cardBg} p-6 rounded-xl shadow-lg`}>

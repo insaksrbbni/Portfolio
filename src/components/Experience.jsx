@@ -28,7 +28,7 @@ const Experience = ({ darkMode }) => {
   return (
     <section id="experience" className="py-20 px-4">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl font-bold mb-12 text-center">Experience</h2>
+        <h2 className="text-2xl md:text-3xl font-bold mb-12 text-center">Experience</h2>
         <div className="space-y-8">
           {experiences.map((exp, index) => (
             <div key={index} className={`${cardBg} p-6 rounded-xl shadow-lg border-l-4 border-blue-600`}>

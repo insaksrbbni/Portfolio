@@ -17,7 +17,7 @@ const Hero = ({ darkMode, scrollToSection }) => {
   />
 </div>
         </div>
-        <h1 className="text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 bg-clip-text text-transparent">
+        <h1 className="text-3xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 bg-clip-text text-transparent">
           Insa Aksar Rabbani
         </h1>
         <p className={`text-xl md:text-2xl mb-8 ${darkMode ? 'text-gray-300' : 'text-gray-600'}`}>

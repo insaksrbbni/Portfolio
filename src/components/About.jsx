@@ -9,7 +9,7 @@ const About = ({ darkMode }) => {
   return (
     <section id="about" className="py-20 px-4">
       <div className="max-w-7xl mx-auto">
-  <h2 className="text-4xl font-bold mb-12 text-center">About Me</h2>
+  <h2 className="text-2xl md:text-3xl font-bold mb-12 text-center">About Me</h2>
   <div className="grid md:grid-cols-2 gap-12 items-center">
     <div className={`${cardBg} rounded-2xl shadow-xl h-96 flex items-center justify-center overflow-hidden transition-all duration-300 hover:shadow-2xl cursor-pointer ${darkMode ? 'hover:shadow-blue-500/50' : 'hover:shadow-blue-800/60'}`}>
       <div className="w-full h-full flex items-center justify-center">
